@@ -5,7 +5,7 @@ Java implementations of **MergeSort**, **QuickSort**, **QuickSelect** and
 and **Closest Pair of Points**, instrumented with a `Metrics` class that records
 comparisons, maximum recursion depth and time.
 
-**Author:** Taubakabyl Nurlybek
+**Author:** Darkhan Tynyshtyk (SE-2523)
 **Report:** [REPORT.md](REPORT.md) — asymptotic bounds, recurrences, plots and discussion.
 
 ---

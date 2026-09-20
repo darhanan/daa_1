@@ -1,7 +1,7 @@
 # Assignment 1 — Divide and Conquer & Asymptotic Notations
 
 **Course:** Design and Analysis of Algorithms
-**Author:** Taubakabyl Nurlybek
+**Author:** Darkhan Tynyshtyk (SE-2523)
 **Version:** v1.0
 
 All numbers in this report come from `results.csv`, produced by
