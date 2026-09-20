@@ -225,9 +225,9 @@ Measured comparisons and median time for selecting the median (k = n/2):
 | 100 000 | sorted | 476 904 | 736 194 | 0.270 | 0.749 | 2.8× |
 | 1 000 000 | sorted | 4 123 860 | 7 451 894 | 2.652 | 7.979 | 3.0× |
 
-**Explanation of the difference.** Median-of-medians performs roughly **2–2.5×
-more comparisons** and runs **~3× slower**, even though both are Θ(n). The extra
-cost is the price of the guarantee:
+**Explanation of the difference.** Median-of-medians performs roughly
+**2–2.5× more comparisons** and runs **~3× slower**, even though both are Θ(n).
+The extra cost is the price of the guarantee:
 
 - MoM must sort every group of 5 (≈ 7 comparisons per group, so ≈ 1.4n
   comparisons) *before* it can even choose a pivot, and it then pays a recursive
